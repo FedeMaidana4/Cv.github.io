@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum Vitae</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://icon-library.com/images/curriculum-vitae-icon/curriculum-vitae-icon-2.jpg">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="container">Mi Currículum Vitae</h1>
+
+    <img id="foto_perfil"
+        src="https://lh5.googleusercontent.com/pelYM7j1TfDgI5uTf5zuJPQGLI_dX7p6i6iKP_0yrEXe1_8JgH6jOqMyFY49W6nCrEA=w2400"
+        alt="Foto de perfil">
+
+    <div id="iconos">
+        <img id="nombre" src="imagenes\nombre.png" alt="Nombre">
+        <img id="edad" src="imagenes\edad.png" alt="Edad">
+        <img id="direccion" src="imagenes\direccion.png" alt="Dirección">
+        <img id="email" src="imagenes\email.png" alt="Email">
+        <img id="telefono" src="imagenes\telefono.png" alt="Teléfono">
+    </div>
+
+    <h3 id="info_visual">¡Hola! <br> Soy Federico Maidana</h3>
+
+    <table id="iconos">
+        <tr>
+            <th>
+                <h2 id="formacion_academica_boton">Formación Académica</h2>
+            </th>
+            <th>
+                <h2 id="experiencia_laboral_boton">Experiencia Laboral</h2>
+            </th>
+            <th>
+                <h2 id="mas_datos_boton">Algunos datos más...</h2>
+            </th>
+        </tr>
+    </table>
+
+    <div class="container">
+        <table id="formacion_academica" style="display: none">
+            <tr>
+                <th style="width: 20%;"><img id="academiaylaboral"
+                        src="https://www.ie.edu/faculty/pilar-galeote/wp-content/uploads/sites/125/2013/11/education.png"
+                        alt="gorritoEgreso imagen"></th>
+                <th>
+                    <ul>
+                        <li>2022: 1° Etapa #SeProgramar - INTI. <a
+                                href="https://drive.google.com/file/d/1SqQHoutqREJTecpsRS_YcFziBblXsNcK/view?usp=sharing">Certificado</a>
+                        </li>
+                        <li>2020: Diplomatura Enseñanza de la Matemática mediada por TICs - UNSE.</li>
+                        <li>2016: Profesorado de Educación Secundaria en Matemática - IES Santa Rosa, Catamarca.</li>
+                        <li>2010: Educación Secundaria - Polimodal en Comunicación, Arte y Diseño - Instituto Superior
+                            Teresa B.
+                            de
+                            Barbieri.</li>
+                        <li>2010: Operador Office - ARG Capacitación.</li>
+                    </ul>
+                </th>
+            </tr>
+        </table>
+
+        <table id="experiencia_laboral" style="display: none">
+            <tr>
+                <th style="width: 20%;"><img id="academiaylaboral" src="imagenes\explab.png"
+                        alt="Experiencia laboral imagen"></th>
+                <th>
+                    <ul>
+                        <li>Actual: Profesor de Matemática y Didáctica de la Matemática - Profesorado de Educación
+                            Primaria.
+                        </li>
+                        <li>Actual: Profesor de Educación Secundaria en Matemática en Escuelas Públicas y Privadas.</li>
+                        <li>2018: Profesor del Proyecto de Mejora Institucional (PMI) y Plan FinEs - Esc. de Comercio.
+                        </li>
+                    </ul>
+                </th>
+            </tr>
+        </table>
+
+        <table id="mas_datos" style="display: none">
+            <tr>
+                <th style="width: 20%;"><img id="academiaylaboral" src="imagenes\habilidadicon.png" alt="habilidades">
+                </th>
+                <th>
+                    <ul>
+                        <li>Buen manejo de Office, principalmente Word, Excel y Powerpoint.</li>
+                        <li>Pianista, guitarrista y cantante con experiencia en música clásica y folclórica desde los 10
+                            años.
+                        </li>
+                        <li>Estudiante apasionado de programación.</li>
+                        <li>Actualmente curso actualizaciones académicas sobre mi carrera docente.</li>
+                    </ul>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/funciones.js"></script>
+</body>
+
+</html>

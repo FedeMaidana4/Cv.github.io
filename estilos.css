@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#9ef0df, white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: default;
+}
+
+.container {
+    background-image: url("https://images.vexels.com/content/166925/preview/abstract-blue-background-design-510359.png");
+}
+
+#foto_perfil {
+    width: 20%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+#academiaylaboral {
+    width: 50%;
+    border-radius: 50%;
+}
+
+#info_visual {
+    background-color: #02DCB1;
+    background: rgba(0, 189, 179, 0.3);
+    margin: 0px;
+    padding: 15px;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 4px;
+    border-bottom: solid 5px #45DEC0;
+    letter-spacing: 3px;
+}
+
+h2 {
+    margin-top: 20px;
+    display: block;
+    text-decoration: underline #45DEC0 3px;
+    padding: 0px 25px 0px 25px;
+}
+
+ul {
+    text-align: left;
+    margin: 25px;
+}
+
+ul li {
+    margin: 15px;
+}
+
+table {
+    margin: auto;
+}
+
+#iconos {
+    cursor: pointer;
+}
+
+#iconos img {
+    transition: all 400ms;
+}
+
+#iconos h2 {
+    transition: all 400ms;
+}
+
+#iconos img:hover {
+    transform: scale(1.15);
+}
+
+#iconos h2:hover {
+    transform: scale(1.1);
+}
